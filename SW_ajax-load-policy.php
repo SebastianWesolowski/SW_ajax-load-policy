@@ -3,7 +3,7 @@
 Plugin Name: SW_ajax-load-policy
 Plugin URI: warsztatkodu.pl
 Description: Load policy info without refresh page
-Version: 1.0.0
+Version: 1.0.1
 Author: Sebastian Wesołowski
 Author URI: warsztatkodu.pl
 Copyright: Sebastian Wesołowski
