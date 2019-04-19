@@ -1,13 +1,19 @@
 <?php
-/*
-Plugin Name: SW_ajax-load-policy
-Plugin URI: warsztatkodu.pl
-Description: Load policy info without refresh page
-Version: 1.0.1
-Author: Sebastian Wesołowski
-Author URI: warsztatkodu.pl
-Copyright: Sebastian Wesołowski
-*/
+
+/**
+ * Plugin Name:      sw_ajax-load-policy
+ * Plugin URI:       https://github.com/sebastianwesolowski/sw_ajax-load-policy
+ * Description:      Load policy info without refresh page
+ * Version:          1.0.1
+ * Author:           Sebastian Wesołowski
+ * Author URI:       warsztatkodu.pl, wesolowski.dev
+ * Text Domain:      sw_ajax-load-policy
+ * Domain Path:      /resources/lang
+ * License:          MIT
+ * License URI:      http://opensource.org/licenses/MIT
+ *
+ * @package         sw_ajax-load-policy
+ */
 
 add_action( 'wp_enqueue_scripts', 'ajax_test_enqueue_scripts' );
 function ajax_test_enqueue_scripts() {

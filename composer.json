@@ -1,18 +1,30 @@
 {
-  "name": "SebastianWesolowski/SW_ajax-load-policy",
+  "name": "sebastianwesolowski/sw_ajax-load-policy",
   "type": "wordpress-muplugin",
-  "description": "Simple plugin, customize wordpress admin panel",
-  "keywords": [
-    "wordpress",
-    "plugin"
-  ],
-  "homepage": "https://github.com/SebastianWesolowski/SW_ajax-load-policy",
-  "authors": [
+  "license": "MIT",
+  "description": "Plugin load content policy page in AJAX technology",
+  "homepage": "https://github.com/sebastianwesolowski/sw_ajax-load-policy",
+  "authors": [{
+      "name": "Sebastian Wesołowski",
+      "email": "sebastian@wesolowski.dev",
+      "homepage": "https://wesolowski.dev"
+    },
     {
-      "name": "Sebastian Wesołowski"
+      "name": "Sebastian Wesołowski",
+      "email": "kontakt@warszatkodu.pl",
+      "homepage": "https://warsztatkodu.pl"
     }
   ],
+  "keywords": [
+    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config", "plugin", "gutenberg"
+  ],
+  "support": {
+    "issues": "https://github.com/sebastianwesolowski/sw_ajax-load-policy/issues"
+  },
   "require": {
-    "php": ">=5.6"
+    "php": "^7.1.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
   }
 }
