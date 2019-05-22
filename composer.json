@@ -1,9 +1,9 @@
 {
-  "name": "sebastianwesolowski/sw_ajax-load-policy",
+  "name": "sebastianwesolowski/sw-ajax-load-policy",
   "type": "wordpress-muplugin",
   "license": "MIT",
   "description": "Plugin load content policy page in AJAX technology",
-  "homepage": "https://github.com/sebastianwesolowski/sw_ajax-load-policy",
+  "homepage": "https://github.com/sebastianwesolowski/sw-ajax-load-policy",
   "authors": [{
       "name": "Sebastian Wesołowski",
       "email": "sebastian@wesolowski.dev",
@@ -19,7 +19,7 @@
     "bedrock", "composer", "roots", "wordpress", "wp", "wp-config", "plugin", "gutenberg"
   ],
   "support": {
-    "issues": "https://github.com/sebastianwesolowski/sw_ajax-load-policy/issues"
+    "issues": "https://github.com/sebastianwesolowski/sw-ajax-load-policy/issues"
   },
   "require": {
     "php": "^7.1.3"
